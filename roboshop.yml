@@ -1,6 +1,5 @@
 - name: Run RoboShop Component
   hosts: localhost
-  connection: local
   become: yes
   roles:
     - "{{ ROLE_NAME }}"
